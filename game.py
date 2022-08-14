@@ -6,3 +6,6 @@ def get_choices():
     computer_choice = random.choice(options)
     choices = {"player": player_choice, "computer": computer_choice}
     return choices
+
+def check_win(player, computer):
+    print(f"You chose {player}, computer chose {computer}")
